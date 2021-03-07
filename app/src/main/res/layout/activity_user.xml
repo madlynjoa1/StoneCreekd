@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,70 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".User"
     android:background="@drawable/androidhome">
-
-<!--    <TextView-->
-<!--        android:id="@+id/homePage_tv"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Home Page"-->
-<!--        android:textSize="31dp"-->
-<!--        android:textColor="@color/black"-->
-<!--        android:fontFamily="@font/bold"-->
-<!--        />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/savedAni_tv"-->
-<!--        android:layout_width="200dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="8000"-->
-<!--        android:textSize="50sp"-->
-<!--        android:gravity="center"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:padding="10dp"-->
-<!--        android:fontFamily="@font/Bold"-->
-<!--        android:layout_marginTop="130dp"-->
-<!--        />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/rehab_tv"-->
-<!--        android:layout_width="205dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="2000"-->
-<!--        android:textSize="50sp"-->
-<!--        android:gravity="center"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:padding="10dp"-->
-<!--        android:layout_toRightOf="@+id/savedAni_tv"-->
-<!--        android:layout_marginTop="127dp"-->
-<!--        android:layout_marginLeft="10dp"-->
-<!--        android:fontFamily="@font/Bold"-->
-<!--        />-->
-
-<!--&lt;!&ndash;    <TextView&ndash;&gt;-->
-<!--&lt;!&ndash;        android:id="@+id/event_tv"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:text="Events"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:textSize="30dp"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:layout_below="@+id/savedAni_tv"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:textColor="#002825"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:fontFamily="sans-serif"&ndash;&gt;-->
-<!--&lt;!&ndash;        android:padding="10dp"&ndash;&gt;-->
-<!--&lt;!&ndash;        />&ndash;&gt;-->
-
-<!--    <Button-->
-<!--        android:id="@+id/reportAni_tv"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Report Animal"-->
-<!--        android:textSize="20dp"-->
-<!--        android:layout_marginTop="550dp"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:fontFamily="sans-serif"-->
-<!--        android:padding="10dp"-->
-<!--        android:layout_centerHorizontal="true"-->
-<!--        />-->
-
 
     <Button
         android:id="@+id/reportAnimal_btn"
@@ -113,19 +49,61 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.215" />
 
+
     <TextView
         android:id="@+id/services_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="All Services >>"
         android:clickable="true"
-        android:textColor="@color/white"
         android:fontFamily="@font/bold"
+        android:text="All Services >>"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintHorizontal_bias="0.954"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintVertical_bias="0.613" />
 
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="98dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:maxHeight="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.025"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516"
+        app:srcCompat="@drawable/adult_programs" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="95dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:maxHeight="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        app:srcCompat="@drawable/babyopossoms" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="95dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="150dp"
+        android:maxHeight="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.518"
+        app:srcCompat="@drawable/parties" />
 </androidx.constraintlayout.widget.ConstraintLayout>
